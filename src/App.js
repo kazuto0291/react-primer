@@ -2,6 +2,7 @@ import React from 'react';
 import Button from './componets/Button/Button';
 // import Timer from './componets/Timer/Timer';
 import Counter from './componets/Counter/Counter';
+import Loginout from './componets/Loginout/Loginout';
 
 
 function App () {
@@ -13,7 +14,7 @@ function App () {
       <Button>ボタン１</Button>
       <h1>カウンター</h1>
       <Counter />
-    
+      <Loginout />
     </div>
   )
 }
