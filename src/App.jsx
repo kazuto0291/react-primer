@@ -1,6 +1,7 @@
 import React from 'react';
 import List from './componets/LIst/List';
 import Form from './componets/Form/Form'
+import Appp from './componets/Appp/Appp'
 
 const API_URL =' https://opentdb.com/api.php?amount=10';
 
@@ -45,6 +46,7 @@ class App extends React.Component {
         { this.renderRequestButton()}
         { this.renderData()}
         <List />
+        <Appp />
       </div>
     )
   }
