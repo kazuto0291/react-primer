@@ -1,5 +1,6 @@
 import React from 'react';
 import List from './componets/LIst/List';
+import Form from './componets/Form/Form'
 
 const API_URL =' https://opentdb.com/api.php?amount=10';
 
@@ -39,6 +40,8 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
+        <h1>フォームの確認</h1>
+        <Form />
         { this.renderRequestButton()}
         { this.renderData()}
         <List />
